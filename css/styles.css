@@ -164,10 +164,7 @@ letter-spacing: 0.02em;
 }
 .section-two-list {
     display: flex;
-    flex-direction: row;
     gap: 24;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
 }
 .section-two-list-item {
     display: flex;
