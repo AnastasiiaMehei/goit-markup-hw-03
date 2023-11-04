@@ -93,7 +93,7 @@ ul, li {
     }
 .section-one {
     background: #2E2F42;
-    padding: 188px 0;
+    padding: 188px 0 188px;
 }
 .section-one-tittle {
     color: #FFF;
@@ -242,7 +242,7 @@ letter-spacing: 0.02em;
 }
 .section-four-photo {
     background: #FFF;
-    width: calc((100% - 48px) / 3);
+    width: calc((100% - 72px) / 4); 
 }
 .section-four-photo-name {
     color: #2E2F42;
@@ -309,4 +309,7 @@ ul {
     padding: 120px 0;
     margin-top: 0;
     margin-bottom: 0;
+}
+img {
+    display: block;
 }
