@@ -167,12 +167,10 @@ letter-spacing: 0.02em;
     gap: 24px;
 }
 .section-two-list-item {
-    display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 8px;
     width: calc((100% - 72px) / 4);
-    margin-right: 24px;
 }
 .section-two-list-item:last-child {
     margin-right: 0;
