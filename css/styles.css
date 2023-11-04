@@ -93,7 +93,7 @@ ul, li {
     }
 .section-one {
     background: #2E2F42;
-    padding: 188px 0 188px;
+    padding: 188px 0 188px 0;
 }
 .section-one-tittle {
     color: #FFF;
@@ -166,7 +166,7 @@ letter-spacing: 0.02em;
     gap: 24px; 
 }
 .section-two-list-item {
-    width: calc((100% - 72px) / 4); 
+    flex-basis: calc((100% - 72px) / 4)
 }
 .section-two-paragraphs {
     color: #434455;
@@ -242,7 +242,7 @@ letter-spacing: 0.02em;
 }
 .section-four-photo {
     background: #FFF;
-    width: calc((100% - 72px) / 4); 
+    width: calc((100% - 48px) / 3);
 }
 .section-four-photo-name {
     color: #2E2F42;
