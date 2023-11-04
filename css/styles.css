@@ -9,18 +9,20 @@ ul, li {
 .navigation {
     display: flex;
     align-items: center;
+    margin-right: auto;
 }
 .navigation >a {
     text-decoration: none;
     }
 .container-top {
     display: flex;
+    align-items: block;
 
 }
 .container {
     width: 1158px;
-    margin: 0;
-    padding: 0 15px;
+    margin: 0 auto;
+    padding: 0 15px 0 15px;
 }
 .top-line {
     border-bottom: 1px solid #e7e9fc;
@@ -34,6 +36,7 @@ ul, li {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-right: 76px;
+    display: block;
 }
 .navigation-menu {
     display: flex;
@@ -69,6 +72,7 @@ ul, li {
 } 
 .address-class {
     font-style: normal;
+    margin-left: auto;
 }
 .address-list {
     display: flex;
@@ -101,6 +105,8 @@ ul, li {
     max-width: 496px;
     padding-right: 0;
     padding-left: 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 .section-one-button {
     background: #4D5AE5;
@@ -115,6 +121,8 @@ ul, li {
     border: none; 
     border-radius: 4px; 
     cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
     }
 .section-one-button:hover {
     background-color: #404BBF;
@@ -288,4 +296,17 @@ letter-spacing: 0.02em;
     line-height: 1.5;
     letter-spacing: 0.02em;
     max-width: 264px;
+}
+ul {
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.section-one,
+.section-two,
+.section-three
+.section-four {
+    padding: 120px 0;
+    margin-top: 0;
+    margin-bottom: 0;
 }
