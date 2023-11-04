@@ -9,8 +9,12 @@ ul, li {
 .navigation >a {
     text-decoration: none;
     }
-..container {
+.container-top {
+    display: flex;
+}
+.container {
     width: 1158px;
+    margin: 0;
 }
 .top-line {
     border-bottom: 1px solid #e7e9fc;
