@@ -9,6 +9,12 @@ ul, li {
 .navigation >a {
     text-decoration: none;
     }
+..container {
+    width: 1158px;
+}
+.top-line {
+    border-bottom: 1px solid #e7e9fc;
+}
 .logo {
     font-family: "Raleway", sans-serif;
     color:#4d5ae5;
